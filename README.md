@@ -1,24 +1,21 @@
 # 📊 Trader Behavior vs Market Sentiment Analysis
 
-This project analyzes how trader performance changes under different market sentiments (Fear vs Greed), using real historical trade data from Hyperliquid and Bitcoin's Fear & Greed Index.
+This project analyzes how crypto trader performance changes during different market sentiments (Fear, Greed, etc.), using trade data from Hyperliquid and the Bitcoin Fear & Greed Index.
 
-## 🔍 What’s Inside
-- 📈 PnL distribution analysis by sentiment
-- ⏱️ Profitability heatmap (by hour × sentiment)
-- 👥 Trader clustering (KMeans)
-- 📊 Clean EDA with visuals
+## 📁 Datasets
+- `historical_data.csv` – Contains execution price, trade size, direction, PnL, and timestamps
+- `fear_greed_index.csv` – Daily market sentiment: Fear, Greed, etc.
 
-## 📁 Datasets Used
-- `historical_data.csv`: Hyperliquid trader logs
-- `fear_greed_index.csv`: Daily sentiment labels
+## 🔍 Features
+- PnL distribution by sentiment
+- Profitability heatmaps by hour and market mood
+- K-Means clustering of trader behavior
+- Clean EDA notebook with professional formatting
 
-## 🛠️ Tech Stack
-- Python (Pandas, Seaborn, Matplotlib, Scikit-learn)
-- Jupyter/Colab
+## 📈 Tools Used
+- Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
+- Google Colab / Jupyter Notebook
 
-## 🚀 How to Run
-1. Upload both CSVs into Colab
-2. Run all cells in `Trader_Behavior_Analysis.ipynb`
-
-## 📬 Submission
-Submitted for the role: **Junior Data Scientist – Trader Behavior Insights**
+## 📬 Submission Context
+Submitted for: **Junior Data Scientist – Trader Behavior Insights**  
+Company: Bajarangs / PrimeTrade.ai
